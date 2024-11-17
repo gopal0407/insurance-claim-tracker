@@ -1,0 +1,15 @@
+[package]
+name = "star_claims"
+version = "1.0.0"
+authors = []
+
+[addresses]
+StarClaims = '0x2de0006b3ad0a8c13d30ba83154b73012a237295acb74ccf007651bb9d6112da'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
